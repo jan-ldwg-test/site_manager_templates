@@ -1,0 +1,85 @@
+{
+    "deviceTypeName": "Name",
+    "manufacturerId": "hersteller",
+    "orderCode": "Bestellnummer",
+    "orderName": "Bestellname",
+    "description": "",
+    "note": "",
+    "climateLoad_w": "Abwärme",
+    "operating_temperatur": {
+        "min": "Mindesttemperatur",
+        "max": "Maximaltemperatur"
+    },
+    "relative_humidity": {
+        "min": "minimale Luftfeuchtigkeit",
+        "max": "maximale Luftfeuchtigkeit"
+    },
+    "physical_properties": {
+        "dimensions_mm": {
+            "width": "Breite",
+            "height": "Höhe",
+            "depth": "Tiefe"
+        },
+        "dimension_rack": {
+            "mountability": "true",
+            "units": "2",
+            "width": "0.5",
+        
+        "weight_g": "Gewicht"
+        },
+    "lpa_db": "" // Name noch nicht schön
+    },
+    
+    
+    
+    
+    "portTypes": [
+        {
+            "portTypeName": "WCLK IN",
+            "portTypeDirection": "IN",
+            "portTypeConnector": "BNC_f",
+            "compatibleSignalTypes": ["WCLK"], //geht es um Signaltypen oder um Protokolle?
+            "power_input": {
+                    "voltage_v": {
+                        "min": "",
+                        "max": ""
+                    },
+                    "current_a": {
+                        "standby": "",
+                        "max": "",
+                        "inrush": ""
+                    },
+                    "power_w":{
+                        "standby": "",
+                        "max": ""
+                    },
+                    "power_type": "AC, DC, PoE",
+                    "fused": "true"
+                },
+            "power_output": {
+                "voltage_v": {
+                    "min": "",
+                    "max": ""
+                },
+                "current_a": {
+                        "standby": "", //notwendig?
+                        "max": ""
+                },
+                "power_w":{
+                    "standby": "", //notwendig?
+                    "max": ""
+                },
+                "power_type": "AC, DC, PoE"
+                },
+            "note": ""
+        }
+    ],
+    "moduleSlotTypes": [
+        {
+            "moduleSlotTypeName": "dwc0",
+            "compatibleModuleSlotFormFactors": ["SFP"],
+            "compatibleModuleTypes": ["lawo_981_60-61"],
+            "incompatibleModuleTypes": []
+        }
+    ]
+}
