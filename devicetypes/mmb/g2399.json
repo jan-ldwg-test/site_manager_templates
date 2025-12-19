@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "id": "mmb-g2399",
+  "name": "G2399",
+  "manufacturerId": "mmb",
+  "orderCode": "G2399",
+  "orderNumber": null,
+  "climateLoad": 1,
+  "portTypes": [
+    {
+      "name": "USB",
+      "direction": "IN",
+      "connector": "USB2.0B_f",
+      "compatibleSignalTypes": ["USB_2"]
+    },
+    {
+      "name": "OPTICAL",
+      "direction": "IN",
+      "connector": "JIS_F05_f",
+      "compatibleSignalTypes": ["TOSLINK"]
+    },
+    {
+      "name": "AES",
+      "direction": "OUT",
+      "connector": "XLR3p_m",
+      "compatibleSignalTypes": ["AES3"]
+    }
+  ]
+}

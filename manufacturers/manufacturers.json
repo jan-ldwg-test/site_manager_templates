@@ -40,6 +40,16 @@
     "nameShort": "Luminex"
   },
   {
+    "id": "mmb",
+    "name": "Media Units MUG GmbH",
+    "nameShort": "MMB"
+  },
+  {
+    "id": "neumann",
+    "name": "Georg Neumann GmbH",
+    "nameShort": "Neumann"
+  },
+  {
     "id": "sennheiser",
     "name": "Sennheiser electronic SE & Co. KG",
     "nameShort": "Sennheiser"

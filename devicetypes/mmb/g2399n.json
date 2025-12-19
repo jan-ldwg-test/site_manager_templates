@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "id": "mmb-g2399n",
+  "name": "G2399N",
+  "manufacturerId": "mmb",
+  "orderCode": "G2399N",
+  "orderNumber": null,
+  "climateLoad": 1,
+  "portTypes": [
+    {
+      "name": "OPTICAL",
+      "direction": "IN",
+      "connector": "JIS_F05_f",
+      "compatibleSignalTypes": ["TOSLINK"]
+    },
+    {
+      "name": "AES",
+      "direction": "OUT",
+      "connector": "XLR3p_m",
+      "compatibleSignalTypes": ["AES3"]
+    }
+  ]
+}

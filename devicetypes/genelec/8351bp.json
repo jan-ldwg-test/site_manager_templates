@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "id": "genelec-8351bp",
+  "name": "8351BP",
+  "manufacturerId": "genelec",
+  "orderCode": "8351BP",
+  "orderNumber": null,
+  "climateLoad": 200,
+  "portTypes": [
+    {
+      "name": "DIGITAL IN AES/EBU",
+      "direction": "IN",
+      "connector": "XLR3p_f",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "DIGITAL THRU AES/EBU",
+      "direction": "OUT",
+      "connector": "XLR3p_m",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "ANALOG IN",
+      "direction": "IN",
+      "connector": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    },
+    {
+      "name": "GLM NETWORK",
+      "direction": "IN",
+      "connector": "RJ45_f",
+      "compatibleSignalTypes": ["genelec_GLM"]
+    },
+    {
+      "name": "GLM NETWORK",
+      "direction": "OUT",
+      "connector": "RJ45_f",
+      "compatibleSignalTypes": ["genelec_GLM"]
+    }
+  ]
+}

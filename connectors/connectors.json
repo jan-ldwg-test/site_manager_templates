@@ -230,5 +230,19 @@
     "gender": "MALE",
     "icon": "TRS_635_m",
     "compatibleConnectors": ["TRS_635_f"]
+  },
+  {
+    "id": "JIS_F05_f",
+    "name": "JIS F05 female",
+    "gender": "FEMALE",
+    "icon": "JIS_F05_f",
+    "compatibleConnectors": ["JIS_F05_m"]
+  },
+  {
+    "id": "JIS_F05_m",
+    "name": "JIS F05 male",
+    "gender": "MALE",
+    "icon": "JIS_F05_m",
+    "compatibleConnectors": ["JIS_F05_f"]
   }
 ]

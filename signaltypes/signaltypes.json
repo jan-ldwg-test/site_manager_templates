@@ -65,6 +65,11 @@
     "description": ""
   },
   {
+    "id": "TOSLINK",
+    "name": "TOSLINK",
+    "description": ""
+  },
+  {
     "id": "AUDIO_BAL_ANA",
     "name": "Balanced Analog Audio",
     "description": ""
@@ -138,5 +143,10 @@
     "id": "GPIO",
     "name": "GPIO",
     "description": ""
+  },
+  {
+    "id": "genelec_GLM",
+    "name": "Genelec GLM Network",
+    "description": "Proprietary format used by Genelec to control loudspeakers"
   }
 ]

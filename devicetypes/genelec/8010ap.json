@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "genelec-8010ap",
+  "name": "8010AP",
+  "manufacturerId": "genelec",
+  "orderCode": "8010AP",
+  "orderNumber": null,
+  "climateLoad": 30,
+  "portTypes": [
+    {
+      "name": "ANALOG IN",
+      "direction": "IN",
+      "connector": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    }
+  ]
+}
