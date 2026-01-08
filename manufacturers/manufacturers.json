@@ -10,6 +10,11 @@
     "nameShort": "Blackmagic"
   },
   {
+    "id": "cisco",
+    "name": "Cisco Systems, Inc.",
+    "nameShort": "Cisco"
+  },
+  {
     "id": "dell",
     "name": "Dell Inc.",
     "nameShort": "Dell"

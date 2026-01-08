@@ -125,6 +125,11 @@
     "description": "IEEE 802.3ct-2021"
   },
   {
+    "id": "RS_232",
+    "name": "RS-232",
+    "description": ""
+  },
+  {
     "id": "SDI_SD_CU",
     "name": "SD-SDI",
     "description": "SMPTE 259M"
