@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "imagine-opqsfp100gbidi",
+  "name": "OP+QSFP+100G+BIDI",
+  "orderCode": null,
+  "orderNumber": "OP+QSFP+100G+BIDI",
+  "moduleFormFactorId": "qsfp28",
+  "manufacturerId": "imagine",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "LC_DPLX_PC_MM_f",
+      "compatibleSignalTypes": ["100GBASE_SR2_BIDI"]
+    }
+  ]
+}

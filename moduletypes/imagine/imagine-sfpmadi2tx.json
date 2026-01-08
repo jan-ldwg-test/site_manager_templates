@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "name": "SFP+MADI+2TX",
+  "id": "imagine-sfpmadi2tx",
+  "orderCode": null,
+  "orderNumber": "SFP+MADI+2TX",
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "imagine",
+  "portTypes": [
+    {
+      "name": "1",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["MADI_CU"]
+    },
+    {
+      "name": "2",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["MADI_CU"]
+    }
+  ]
+}

@@ -1,0 +1,754 @@
+{
+  "version": "1.0",
+  "id": "imagine-snp-platform-xl",
+  "name": "Selenio Network Processor XL",
+  "manufacturerId": "imagine",
+  "orderCode": null,
+  "orderNumber": "SNP-PLATFORM-XL",
+  "climateLoad": 550,
+  "portTypes": [
+    {
+      "name": "MGMT A",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "MGMT B",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "REF IN",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+    },
+    {
+      "name": "REF OUT",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+    },
+
+    {
+      "name": "GPIO RS232",
+      "direction": "BIDI",
+      "connectorId": "DSUB9p_m",
+      "compatibleSignalTypes": ["GPIO"]
+    },
+    {
+      "name": "SDI IN 1",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_6G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI IN 2",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 3",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 4",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 5",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_6G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI IN 6",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 7",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 8",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 9",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_6G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI IN 10",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 11",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 12",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 13",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_6G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI IN 14",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 15",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 16",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 17",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_6G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI IN 18",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 19",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 20",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 21",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_6G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI IN 22",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 23",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 24",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 25",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_6G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI IN 26",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 27",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 28",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 29",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_6G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI IN 30",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 31",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI IN 32",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 1",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_6G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI OUT 2",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 3",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 4",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 5",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_6G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI OUT 6",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 7",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 8",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 9",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_6G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI OUT 10",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 11",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 12",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 13",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_6G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI OUT 14",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 15",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 16",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 17",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_6G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI OUT 18",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 19",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 20",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 21",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_6G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI OUT 22",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 23",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 24",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 25",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_6G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI OUT 26",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 27",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 28",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 29",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_6G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI OUT 30",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 31",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI OUT 32",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "DATA A",
+      "compatibleModuleSlotFormFactors": ["qsfp28"],
+      "compatibleModuleTypes": [
+        "imagine-op100gcwdm42k",
+        "imagine-op100glandwdm40k",
+        "imagine-op100gswdm4100m",
+        "imagine-opqsfp100g10k",
+        "imagine-opqsfp100gbidi",
+        "imagine-opqsfp100gpsm4",
+        "imagine-opqsfpddr100g",
+        "imagine-opqsfpdfr100g",
+        "imagine-opqsfptrmm100g",
+        "imagine-opqsfpxsr4100g"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "DATA B",
+      "compatibleModuleSlotFormFactors": ["qsfp28"],
+      "compatibleModuleTypes": [
+        "imagine-op100gcwdm42k",
+        "imagine-op100glandwdm40k",
+        "imagine-op100gswdm4100m",
+        "imagine-opqsfp100g10k",
+        "imagine-opqsfp100gbidi",
+        "imagine-opqsfp100gpsm4",
+        "imagine-opqsfpddr100g",
+        "imagine-opqsfpdfr100g",
+        "imagine-opqsfptrmm100g",
+        "imagine-opqsfpxsr4100g"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Output Baseband SFP A",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "imagine-sfpmadi2tx",
+        "imagine-opsfpmadi2tx",
+        "imagine-opsfptt12g",
+        "imagine-opsfptt1313",
+        "imagine-sfp2etx",
+        "imagine-sfp2etx12g",
+        "imagine-sfphdmi20outcab",
+        "imagine-sfphdmiout"
+      ],
+      "incompatibleModuleTypes": [
+        "imagine-opsfpmadi2rx",
+        "imagine-opsfprr",
+        "imagine-opsfprr12g",
+        "imagine-sfp2erx",
+        "imagine-sfp2erx12g",
+        "imagine-sfphdmiin",
+        "imagine-sfpmadi2rx"
+      ]
+    },
+    {
+      "name": "Output Baseband SFP B",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "imagine-sfpmadi2tx",
+        "imagine-opsfpmadi2tx",
+        "imagine-opsfptt12g",
+        "imagine-opsfptt1313",
+        "imagine-sfp2etx",
+        "imagine-sfp2etx12g",
+        "imagine-sfphdmi20outcab",
+        "imagine-sfphdmiout"
+      ],
+      "incompatibleModuleTypes": [
+        "imagine-opsfpmadi2rx",
+        "imagine-opsfprr",
+        "imagine-opsfprr12g",
+        "imagine-sfp2erx",
+        "imagine-sfp2erx12g",
+        "imagine-sfphdmiin",
+        "imagine-sfpmadi2rx"
+      ]
+    },
+    {
+      "name": "Output Baseband SFP C",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "imagine-sfpmadi2tx",
+        "imagine-opsfpmadi2tx",
+        "imagine-opsfptt12g",
+        "imagine-opsfptt1313",
+        "imagine-sfp2etx",
+        "imagine-sfp2etx12g",
+        "imagine-sfphdmi20outcab",
+        "imagine-sfphdmiout"
+      ],
+      "incompatibleModuleTypes": [
+        "imagine-opsfpmadi2rx",
+        "imagine-opsfprr",
+        "imagine-opsfprr12g",
+        "imagine-sfp2erx",
+        "imagine-sfp2erx12g",
+        "imagine-sfphdmiin",
+        "imagine-sfpmadi2rx"
+      ]
+    },
+    {
+      "name": "Output Baseband SFP D",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "imagine-sfpmadi2tx",
+        "imagine-opsfpmadi2tx",
+        "imagine-opsfptt12g",
+        "imagine-opsfptt1313",
+        "imagine-sfp2etx",
+        "imagine-sfp2etx12g",
+        "imagine-sfphdmi20outcab",
+        "imagine-sfphdmiout"
+      ],
+      "incompatibleModuleTypes": [
+        "imagine-opsfpmadi2rx",
+        "imagine-opsfprr",
+        "imagine-opsfprr12g",
+        "imagine-sfp2erx",
+        "imagine-sfp2erx12g",
+        "imagine-sfphdmiin",
+        "imagine-sfpmadi2rx"
+      ]
+    },
+    {
+      "name": "Input Baseband SFP A",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "imagine-opsfpmadi2rx",
+        "imagine-opsfprr",
+        "imagine-opsfprr12g",
+        "imagine-sfp2erx",
+        "imagine-sfp2erx12g",
+        "imagine-sfphdmiin",
+        "imagine-sfpmadi2rx"
+      ],
+      "incompatibleModuleTypes": [
+        "imagine-sfpmadi2tx",
+        "imagine-opsfpmadi2tx",
+        "imagine-opsfptt12g",
+        "imagine-opsfptt1313",
+        "imagine-sfp2etx",
+        "imagine-sfp2etx12g",
+        "imagine-sfphdmi20outcab",
+        "imagine-sfphdmiout"
+      ]
+    },
+    {
+      "name": "Input Baseband SFP B",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "imagine-opsfpmadi2rx",
+        "imagine-opsfprr",
+        "imagine-opsfprr12g",
+        "imagine-sfp2erx",
+        "imagine-sfp2erx12g",
+        "imagine-sfphdmiin",
+        "imagine-sfpmadi2rx"
+      ],
+      "incompatibleModuleTypes": [
+        "imagine-sfpmadi2tx",
+        "imagine-opsfpmadi2tx",
+        "imagine-opsfptt12g",
+        "imagine-opsfptt1313",
+        "imagine-sfp2etx",
+        "imagine-sfp2etx12g",
+        "imagine-sfphdmi20outcab",
+        "imagine-sfphdmiout"
+      ]
+    },
+    {
+      "name": "Input Baseband SFP C",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "imagine-opsfpmadi2rx",
+        "imagine-opsfprr",
+        "imagine-opsfprr12g",
+        "imagine-sfp2erx",
+        "imagine-sfp2erx12g",
+        "imagine-sfphdmiin",
+        "imagine-sfpmadi2rx"
+      ],
+      "incompatibleModuleTypes": [
+        "imagine-sfpmadi2tx",
+        "imagine-opsfpmadi2tx",
+        "imagine-opsfptt12g",
+        "imagine-opsfptt1313",
+        "imagine-sfp2etx",
+        "imagine-sfp2etx12g",
+        "imagine-sfphdmi20outcab",
+        "imagine-sfphdmiout"
+      ]
+    },
+    {
+      "name": "Input Baseband SFP D",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "imagine-opsfpmadi2rx",
+        "imagine-opsfprr",
+        "imagine-opsfprr12g",
+        "imagine-sfp2erx",
+        "imagine-sfp2erx12g",
+        "imagine-sfphdmiin",
+        "imagine-sfpmadi2rx"
+      ],
+      "incompatibleModuleTypes": [
+        "imagine-sfpmadi2tx",
+        "imagine-opsfpmadi2tx",
+        "imagine-opsfptt12g",
+        "imagine-opsfptt1313",
+        "imagine-sfp2etx",
+        "imagine-sfp2etx12g",
+        "imagine-sfphdmi20outcab",
+        "imagine-sfphdmiout"
+      ]
+    },
+    {
+      "name": "Option Board 1",
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Option Board 2",
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

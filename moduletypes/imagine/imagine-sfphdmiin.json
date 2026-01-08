@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "name": "SFP+HDMI+IN",
+  "id": "imagine-sfphdmiin",
+  "orderCode": null,
+  "orderNumber": "SFP+HDMI+IN",
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "imagine",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "IN",
+      "connectorId": "HDMI_D_f",
+      "compatibleSignalTypes": ["HDMI_10", "HDMI_11", "HDMI_12", "HDMI_12A"]
+    }
+  ]
+}

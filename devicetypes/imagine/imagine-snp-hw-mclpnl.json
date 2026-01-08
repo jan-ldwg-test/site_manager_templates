@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "id": "imagine-snp-hw-mclpnl",
+  "name": "SNP Hardware Control Panel",
+  "manufacturerId": "imagine",
+  "orderCode": null,
+  "orderNumber": "SNP-HW-MCLPNL",
+  "climateLoad": 0,
+  "portTypes": [
+    {
+      "name": "LAN",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX"]
+    }
+  ],
+  "moduleSlotTypes": []
+}

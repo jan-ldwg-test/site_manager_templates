@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "imagine-opqsfpddr100g",
+  "name": "OP+QSFP+DR+100G",
+  "orderCode": null,
+  "orderNumber": "OP+QSFP+DR+100G",
+  "moduleFormFactorId": "qsfp28",
+  "manufacturerId": "imagine",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "LC_DPLX_PC_SM_f",
+      "compatibleSignalTypes": ["100GBASE_DR"]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "name": "OP+SFP+RR",
+  "id": "imagine-opsfprr",
+  "orderCode": null,
+  "orderNumber": "OP+SFP+RR",
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "imagine",
+  "portTypes": [
+    {
+      "name": "1",
+      "direction": "IN",
+      "connectorId": "LC_SPLX_PC_SM_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_SM_1310",
+        "SDI_HD_SM_1310",
+        "SDI_3G_SM_1310"
+      ]
+    },
+    {
+      "name": "2",
+      "direction": "IN",
+      "connectorId": "LC_SPLX_PC_SM_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_SM_1310",
+        "SDI_HD_SM_1310",
+        "SDI_3G_SM_1310"
+      ]
+    }
+  ]
+}

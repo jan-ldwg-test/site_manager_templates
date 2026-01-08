@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "name": "OP+SFP+MADI+2TX",
+  "id": "imagine-opsfpmadi2tx",
+  "orderCode": null,
+  "orderNumber": "OP+SFP+MADI+2TX",
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "imagine",
+  "portTypes": [
+    {
+      "name": "1",
+      "direction": "OUT",
+      "connectorId": "LC_SPLX_PC_SM_f",
+      "compatibleSignalTypes": ["MADI_SM_1310"]
+    },
+    {
+      "name": "2",
+      "direction": "OUT",
+      "connectorId": "LC_SPLX_PC_SM_f",
+      "compatibleSignalTypes": ["MADI_SM_1310"]
+    }
+  ]
+}

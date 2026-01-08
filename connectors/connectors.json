@@ -83,7 +83,20 @@
     "icon": "ETHERCON_m",
     "compatibleConnectors": ["ETHERCON_f"]
   },
-
+  {
+    "id": "LC_SPLX_PC_SM_f",
+    "name": "LC Simplex, PC, SM female",
+    "gender": "FEMALE",
+    "icon": "LCSPLX_f",
+    "compatibleConnectors": ["LC_SPLX_PC_SM_m"]
+  },
+  {
+    "id": "LC_SPLX_PC_SM_m",
+    "name": "LC Simplex, PC, SM male",
+    "gender": "MALE",
+    "icon": "LCSPLX_m",
+    "compatibleConnectors": ["LC_SPLX_PC_SM_f"]
+  },
   {
     "id": "LC_DPLX_PC_MM_f",
     "name": "LC Duplex, PC, MM female",
@@ -111,6 +124,104 @@
     "gender": "MALE",
     "icon": "LCDPLX_m",
     "compatibleConnectors": ["LC_DPLX_PC_SM_f"]
+  },
+  {
+    "id": "LC_DPLX_APC_SM_f",
+    "name": "LC Duplex, APC, SM female",
+    "gender": "FEMALE",
+    "icon": "LCDPLX_f",
+    "compatibleConnectors": ["LC_DPLX_APC_SM_m"]
+  },
+  {
+    "id": "LC_DPLX_APC_SM_m",
+    "name": "LC Duplex, APC, SM male",
+    "gender": "MALE",
+    "icon": "LCDPLX_m",
+    "compatibleConnectors": ["LC_DPLX_APC_SM_f"]
+  },
+  {
+    "id": "MPO_8_PC_MM_m",
+    "name": "MPO8, PC, MM male",
+    "gender": "MALE",
+    "icon": "MPO8_m",
+    "compatibleConnectors": ["MPO_8_PC_MM_f", "MPO_12_PC_MM_f"]
+  },
+  {
+    "id": "MPO_8_PC_MM_f",
+    "name": "MPO8, PC, MM female",
+    "gender": "FEMALE",
+    "icon": "MPO8_f",
+    "compatibleConnectors": ["MPO_8_PC_MM_m", "MPO_12_PC_MM_m"]
+  },
+  {
+    "id": "MPO_12_PC_MM_m",
+    "name": "MPO12, PC, MM male",
+    "gender": "MALE",
+    "icon": "MPO12_m",
+    "compatibleConnectors": ["MPO_12_PC_MM_f", "MPO_8_PC_MM_f"]
+  },
+  {
+    "id": "MPO_12_PC_MM_f",
+    "name": "MPO12, PC, MM female",
+    "gender": "FEMALE",
+    "icon": "MPO12_f",
+    "compatibleConnectors": ["MPO_12_PC_MM_m", "MPO_8_PC_MM_m"]
+  },
+  {
+    "id": "MPO_8_PC_SM_m",
+    "name": "MPO8, PC, SM male",
+    "gender": "MALE",
+    "icon": "MPO8_m",
+    "compatibleConnectors": ["MPO_8_PC_SM_f", "MPO_12_PC_SM_f"]
+  },
+  {
+    "id": "MPO_8_PC_SM_f",
+    "name": "MPO8, PC, SM female",
+    "gender": "FEMALE",
+    "icon": "MPO8_f",
+    "compatibleConnectors": ["MPO_8_PC_SM_m", "MPO_12_PC_SM_m"]
+  },
+  {
+    "id": "MPO_12_PC_SM_m",
+    "name": "MPO12, PC, SM male",
+    "gender": "MALE",
+    "icon": "MPO12_m",
+    "compatibleConnectors": ["MPO_12_PC_SM_f", "MPO_8_PC_SM_f"]
+  },
+  {
+    "id": "MPO_12_PC_SM_f",
+    "name": "MPO12, PC, SM female",
+    "gender": "FEMALE",
+    "icon": "MPO12_f",
+    "compatibleConnectors": ["MPO_12_PC_SM_m", "MPO_8_PC_SM_m"]
+  },
+  {
+    "id": "MPO_8_APC_SM_m",
+    "name": "MPO8, APC, SM male",
+    "gender": "MALE",
+    "icon": "MPO8_m",
+    "compatibleConnectors": ["MPO_8_APC_SM_f", "MPO_12_APC_SM_f"]
+  },
+  {
+    "id": "MPO_8_APC_SM_f",
+    "name": "MPO8, APC, SM female",
+    "gender": "FEMALE",
+    "icon": "MPO8_f",
+    "compatibleConnectors": ["MPO_8_APC_SM_m", "MPO_12_APC_SM_m"]
+  },
+  {
+    "id": "MPO_12_APC_SM_m",
+    "name": "MPO12, APC, SM male",
+    "gender": "MALE",
+    "icon": "MPO12_m",
+    "compatibleConnectors": ["MPO_12_APC_SM_f", "MPO_8_APC_SM_f"]
+  },
+  {
+    "id": "MPO_12_APC_SM_f",
+    "name": "MPO12, APC, SM female",
+    "gender": "FEMALE",
+    "icon": "MPO12_f",
+    "compatibleConnectors": ["MPO_12_APC_SM_m", "MPO_8_APC_SM_m"]
   },
   {
     "id": "RJ45_f",
@@ -167,6 +278,48 @@
     "gender": "MALE",
     "icon": "USBC_m",
     "compatibleConnectors": ["USBC_f"]
+  },
+  {
+    "id": "HDMI_A_m",
+    "name": "HDMI Type A male",
+    "gender": "MALE",
+    "icon": "HDMI_A_m",
+    "compatibleConnectors": ["HDMI_A_f"]
+  },
+  {
+    "id": "HDMI_A_f",
+    "name": "HDMI Type A female",
+    "gender": "FEMALE",
+    "icon": "HDMI_A_f",
+    "compatibleConnectors": ["HDMI_A_m"]
+  },
+  {
+    "id": "HDMI_C_m",
+    "name": "HDMI Type C male",
+    "gender": "MALE",
+    "icon": "HDMI_C_m",
+    "compatibleConnectors": ["HDMI_C_f"]
+  },
+  {
+    "id": "HDMI_C_f",
+    "name": "HDMI Type C female",
+    "gender": "FEMALE",
+    "icon": "HDMI_C_f",
+    "compatibleConnectors": ["HDMI_C_m"]
+  },
+  {
+    "id": "HDMI_D_m",
+    "name": "HDMI Type D male",
+    "gender": "MALE",
+    "icon": "HDMI_D_m",
+    "compatibleConnectors": ["HDMI_D_f"]
+  },
+  {
+    "id": "HDMI_D_f",
+    "name": "HDMI Type D female",
+    "gender": "FEMALE",
+    "icon": "HDMI_D_f",
+    "compatibleConnectors": ["HDMI_D_m"]
   },
   {
     "id": "XLR3p_f",

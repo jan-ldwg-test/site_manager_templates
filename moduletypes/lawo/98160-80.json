@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "id": "lawo-98160-80",
   "name": "981/60-80",
   "orderCode": null,
@@ -9,7 +9,7 @@
   "portTypes": [
     {
       "name": "",
-      "direction": "IN",
+      "direction": "BIDI",
       "connectorId": "LC_DPLX_PC_MM_f",
       "compatibleSignalTypes": ["MADI_MM_1310"]
     }

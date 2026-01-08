@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "imagine-opqsfp100g10k",
+  "name": "OP+QSFP+100G+10K",
+  "orderCode": null,
+  "orderNumber": "OP+QSFP+100G+10K",
+  "moduleFormFactorId": "qsfp28",
+  "manufacturerId": "imagine",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "LC_DPLX_PC_SM_f",
+      "compatibleSignalTypes": ["100GBASE_LR4"]
+    }
+  ]
+}

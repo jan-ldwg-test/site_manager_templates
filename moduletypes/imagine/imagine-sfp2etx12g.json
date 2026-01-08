@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "name": "SFP+2ETX+12G",
+  "id": "imagine-sfp2etx12g",
+  "orderCode": null,
+  "orderNumber": "SFP+2ETX+12G",
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "imagine",
+  "portTypes": [
+    {
+      "name": "1",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_6G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "2",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_6G_CU",
+        "SDI_12G_CU"
+      ]
+    }
+  ]
+}

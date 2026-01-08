@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "imagine-op100glandwdm40k",
+  "name": "OP+100G+LANWDM+40K",
+  "orderCode": null,
+  "orderNumber": "OP+100G+LANWDM+40K",
+  "moduleFormFactorId": "qsfp28",
+  "manufacturerId": "imagine",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "LC_DPLX_PC_SM_f",
+      "compatibleSignalTypes": ["100GBASE_ER4"]
+    }
+  ]
+}

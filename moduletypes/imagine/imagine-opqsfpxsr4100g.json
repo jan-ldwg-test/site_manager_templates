@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "imagine-opqsfpxsr4100g",
+  "name": "OP+QSFP+XSR4+100G",
+  "orderCode": null,
+  "orderNumber": "OP+QSFP+XSR4+100G",
+  "moduleFormFactorId": "qsfp28",
+  "manufacturerId": "imagine",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "MPO_8_PC_MM_m",
+      "compatibleSignalTypes": ["100GBASE_SR4"]
+    }
+  ]
+}

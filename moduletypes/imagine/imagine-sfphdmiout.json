@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "name": "SFP+HDMI+OUT",
+  "id": "imagine-sfphdmiout",
+  "orderCode": null,
+  "orderNumber": "SFP+HDMI+OUT",
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "imagine",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "OUT",
+      "connectorId": "HDMI_D_f",
+      "compatibleSignalTypes": ["HDMI_10", "HDMI_11", "HDMI_12", "HDMI_12A"]
+    }
+  ]
+}

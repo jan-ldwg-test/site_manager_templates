@@ -20,8 +20,118 @@
     "description": "IEEE 802.3an-2006"
   },
   {
+    "id": "100GBASE_SR4",
+    "name": "100GBASE-SR4",
+    "description": "IEEE 802.3bm-2015"
+  },
+  {
+    "id": "100GBASE_SR2_BIDI",
+    "name": "100GBASE-SR2-BiDi",
+    "description": "Proprietary"
+  },
+  {
+    "id": "100GBASE_SWDM4",
+    "name": "100GBASE-SWDM4",
+    "description": "According to SWDM alliance MSA"
+  },
+  {
+    "id": "100GBASE_LR4",
+    "name": "100GBASE-LR4",
+    "description": "IEEE 802.3ba-2010"
+  },
+  {
+    "id": "100GBASE_ER4",
+    "name": "100GBASE-ER4",
+    "description": "IEEE 802.3ba-2010"
+  },
+  {
+    "id": "100GBASE_PSM4",
+    "name": "100GBASE-PSM4",
+    "description": "PSM4.org MSA"
+  },
+  {
+    "id": "100GBASE_CWDM4",
+    "name": "100GBASE-CWDM4",
+    "description": "cwdm4-msa.org MSA"
+  },
+  {
+    "id": "100GBASE_4WDM_10",
+    "name": "100GBASE-4WDM-10",
+    "description": ""
+  },
+  {
+    "id": "100GBASE_4WDM_20",
+    "name": "100GBASE-4WDM-20",
+    "description": ""
+  },
+  {
+    "id": "100GBASE_4WDM_40",
+    "name": "100GBASE-4WDM-40",
+    "description": ""
+  },
+  {
+    "id": "100GBASE_CLR4",
+    "name": "100GBASE-CLR4",
+    "description": ""
+  },
+  {
+    "id": "100GBASE_CWDM4",
+    "name": "100GBASE-CWDM4",
+    "description": ""
+  },
+  {
+    "id": "100GBASE_VR1",
+    "name": "100GBASE-VR1",
+    "description": "IEEE 802.3db-2022"
+  },
+  {
+    "id": "100GBASE_SR1",
+    "name": "100GBASE-SR1",
+    "description": "IEEE 802.3db-2022"
+  },
+  {
+    "id": "100GBASE_DR",
+    "name": "100GBASE-DR",
+    "description": "IEEE 802.3cd-2018"
+  },
+  {
+    "id": "100GBASE_FR1",
+    "name": "100GBASE-FR1",
+    "description": "IEEE 802.3cu-2021"
+  },
+  {
+    "id": "100GBASE_LR1",
+    "name": "100GBASE-LR1",
+    "description": "IEEE 802.3cu-2021"
+  },
+  {
+    "id": "100GBASE_LR1_20",
+    "name": "100GBASE-LR1-20",
+    "description": "100glambda.com MSA"
+  },
+  {
+    "id": "100GBASE_ER1_30",
+    "name": "100GBASE-ER1-30",
+    "description": "100glambda.com MSA"
+  },
+  {
+    "id": "100GBASE_ER1_40",
+    "name": "100GBASE-ER1-40",
+    "description": "100glambda.com MSA"
+  },
+  {
+    "id": "100GBASE_ZR",
+    "name": "100GBASE-ZR",
+    "description": "IEEE 802.3ct-2021"
+  },
+  {
     "id": "SDI_SD_CU",
     "name": "SD-SDI",
+    "description": "SMPTE 259M"
+  },
+  {
+    "id": "SDI_SD_SM_1310",
+    "name": "SD-SDI SM",
     "description": "SMPTE 259M"
   },
   {
@@ -30,8 +140,18 @@
     "description": "SMPTE 292M"
   },
   {
+    "id": "SDI_HD_SM_1310",
+    "name": "HD-SDI SM",
+    "description": "SMPTE 292M"
+  },
+  {
     "id": "SDI_3G_CU",
     "name": "3G-SDI",
+    "description": "SMPTE 424M"
+  },
+  {
+    "id": "SDI_3G_SM_1310",
+    "name": "3G-SDI SM",
     "description": "SMPTE 424M"
   },
   {
@@ -40,8 +160,18 @@
     "description": "SMPTE ST 2081"
   },
   {
+    "id": "SDI_6G_SM_1310",
+    "name": "6G-SDI SM",
+    "description": "SMPTE ST 2081"
+  },
+  {
     "id": "SDI_12G_CU",
     "name": "12G-SDI",
+    "description": "SMPTE ST 2082"
+  },
+  {
+    "id": "SDI_12G_SM_1310",
+    "name": "12G-SDI SM",
     "description": "SMPTE ST 2082"
   },
   {
@@ -137,6 +267,86 @@
   {
     "id": "USB_2",
     "name": "USB 2.0",
+    "description": ""
+  },
+  {
+    "id": "HDMI_10",
+    "name": "HDMI 1.0",
+    "description": ""
+  },
+  {
+    "id": "HDMI_11",
+    "name": "HDMI 1.1",
+    "description": ""
+  },
+  {
+    "id": "HDMI_12",
+    "name": "HDMI 1.2",
+    "description": ""
+  },
+  {
+    "id": "HDMI_12A",
+    "name": "HDMI 1.2a",
+    "description": ""
+  },
+  {
+    "id": "HDMI_13",
+    "name": "HDMI 1.3",
+    "description": ""
+  },
+  {
+    "id": "HDMI_13A",
+    "name": "HDMI 1.3a",
+    "description": ""
+  },
+  {
+    "id": "HDMI_14",
+    "name": "HDMI 1.4",
+    "description": ""
+  },
+  {
+    "id": "HDMI_14A",
+    "name": "HDMI 1.4a",
+    "description": ""
+  },
+  {
+    "id": "HDMI_14B",
+    "name": "HDMI 1.4b",
+    "description": ""
+  },
+  {
+    "id": "HDMI_20",
+    "name": "HDMI 2.0",
+    "description": ""
+  },
+  {
+    "id": "HDMI_20A",
+    "name": "HDMI 2.0a",
+    "description": ""
+  },
+  {
+    "id": "HDMI_20B",
+    "name": "HDMI 2.0b",
+    "description": ""
+  },
+  {
+    "id": "HDMI_21",
+    "name": "HDMI 2.1",
+    "description": ""
+  },
+  {
+    "id": "HDMI_21A",
+    "name": "HDMI 2.1a",
+    "description": ""
+  },
+  {
+    "id": "HDMI_21B",
+    "name": "HDMI 2.1b",
+    "description": ""
+  },
+  {
+    "id": "HDMI_22",
+    "name": "HDMI 2.2",
     "description": ""
   },
   {

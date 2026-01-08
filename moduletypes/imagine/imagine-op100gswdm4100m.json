@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "imagine-op100gswdm4100m",
+  "name": "OP+100G+SWDM4+100M",
+  "orderCode": null,
+  "orderNumber": "OP+100G+SWDM4+100M",
+  "moduleFormFactorId": "qsfp28",
+  "manufacturerId": "imagine",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "LC_DPLX_PC_MM_f",
+      "compatibleSignalTypes": ["100GBASE_SWDM4"]
+    }
+  ]
+}

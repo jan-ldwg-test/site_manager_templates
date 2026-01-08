@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "imagine-opqsfp100gpsm4",
+  "name": "OP+QSFP+100G+PSM4",
+  "orderCode": null,
+  "orderNumber": "OP+QSFP+100G+PSM4",
+  "moduleFormFactorId": "qsfp28",
+  "manufacturerId": "imagine",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "MPO_8_APC_SM_m",
+      "compatibleSignalTypes": ["100GBASE_PSM4"]
+    }
+  ]
+}
