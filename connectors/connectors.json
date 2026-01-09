@@ -116,28 +116,56 @@
     "name": "LC Duplex, PC, MM female",
     "gender": "FEMALE",
     "icon": "LCDPLX_f",
-    "compatibleConnectors": ["LC_DPLX_PC_MM_m"]
+    "compatibleConnectors": ["LC_DPLX_PC_MM_m", "LC_DPLX_UPC_MM_m"]
   },
   {
     "id": "LC_DPLX_PC_MM_m",
     "name": "LC Duplex, PC, MM male",
     "gender": "MALE",
     "icon": "LCDPLX_m",
-    "compatibleConnectors": ["LC_DPLX_PC_MM_f"]
+    "compatibleConnectors": ["LC_DPLX_PC_MM_f", "LC_DPLX_UPC_MM_f"]
+  },
+  {
+    "id": "LC_DPLX_UPC_MM_f",
+    "name": "LC Duplex, UPC, MM female",
+    "gender": "FEMALE",
+    "icon": "LCDPLX_f",
+    "compatibleConnectors": ["LC_DPLX_UPC_MM_m", "LC_DPLX_PC_MM_m"]
+  },
+  {
+    "id": "LC_DPLX_UPC_MM_m",
+    "name": "LC Duplex, UPC, MM male",
+    "gender": "MALE",
+    "icon": "LCDPLX_m",
+    "compatibleConnectors": ["LC_DPLX_UPC_MM_f", "LC_DPLX_PC_MM_f"]
   },
   {
     "id": "LC_DPLX_PC_SM_f",
     "name": "LC Duplex, PC, SM female",
     "gender": "FEMALE",
     "icon": "LCDPLX_f",
-    "compatibleConnectors": ["LC_DPLX_PC_SM_m"]
+    "compatibleConnectors": ["LC_DPLX_PC_SM_m", "LC_DPLX_UPC_SM_m"]
   },
   {
     "id": "LC_DPLX_PC_SM_m",
     "name": "LC Duplex, PC, SM male",
     "gender": "MALE",
     "icon": "LCDPLX_m",
-    "compatibleConnectors": ["LC_DPLX_PC_SM_f"]
+    "compatibleConnectors": ["LC_DPLX_PC_SM_f", "LC_DPLX_UPC_SM_f"]
+  },
+  {
+    "id": "LC_DPLX_UPC_SM_f",
+    "name": "LC Duplex, UPC, SM female",
+    "gender": "FEMALE",
+    "icon": "LCDPLX_f",
+    "compatibleConnectors": ["LC_DPLX_UPC_SM_m", "LC_DPLX_PC_SM_m"]
+  },
+  {
+    "id": "LC_DPLX_UPC_SM_m",
+    "name": "LC Duplex, UPC, SM male",
+    "gender": "MALE",
+    "icon": "LCDPLX_m",
+    "compatibleConnectors": ["LC_DPLX_UPC_SM_f", "LC_DPLX_PC_SM_f"]
   },
   {
     "id": "LC_DPLX_APC_SM_f",

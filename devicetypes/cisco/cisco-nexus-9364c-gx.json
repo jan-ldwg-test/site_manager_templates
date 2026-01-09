@@ -1,0 +1,421 @@
+{
+  "version": "1.0",
+  "id": "cisco-nexus-9364c-gx",
+  "name": "Nexus 9364C-GX",
+  "manufacturerId": "cisco",
+  "orderCode": null,
+  "orderNumber": "N9K-C9364C-GX",
+  "climateLoad": 1622,
+  "portTypes": [
+    {
+      "name": "Console",
+      "direction": "IN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["RS_232"]
+    },
+    {
+      "name": "USB",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "Management",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "Management",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "1",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "2",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "3",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "4",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "5",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "6",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "7",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "8",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "9",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "10",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "11",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "12",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "13",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "14",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "15",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "16",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "17",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "18",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "19",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "20",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "21",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "22",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "23",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "24",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "25",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "26",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "27",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "28",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "29",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "30",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "31",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "32",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "33",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "34",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "35",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "36",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "37",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "38",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "39",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "40",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "41",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "42",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "43",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "44",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "45",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "46",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "47",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "48",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "49",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "50",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "51",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "52",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "53",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "54",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "55",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "56",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "57",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "58",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "59",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "60",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "61",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "62",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "63",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "64",
+      "compatibleModuleSlotFormFactors": ["qsfpplus", "qsfp28"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}
