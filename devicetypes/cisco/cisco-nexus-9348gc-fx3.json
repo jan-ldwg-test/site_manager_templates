@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "id": "cisco-nexus-9348gc-fx3",
   "name": "Nexus 9348GC-FX3",
   "manufacturerId": "cisco",
@@ -15,7 +15,7 @@
     },
     {
       "name": "USB",
-      "direction": "IN",
+      "direction": "OUT",
       "connectorId": "USB2.0A_f",
       "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
     },
