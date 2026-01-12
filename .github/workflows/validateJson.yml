@@ -1,0 +1,32 @@
+name: Validate against JSON schemas
+
+on:
+  pull_request:
+    paths:
+      - "**/*.json"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm install -g ajv-cli
+
+      - name: Validate device types
+        run: |
+          ajv validate \
+            -s schemas/devicetype.schema.json \
+            -d "devicetypes/**/*.json" \
+            --all-errors
+
+      - name: Validate module types
+        run: |
+          ajv validate \
+            -s schemas/moduletype.schema.json \
+            -d "moduletypes/**/*.json" \
+            --all-errors
